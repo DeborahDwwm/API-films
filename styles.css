@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerGeneral {
+width: 90%;
+margin: auto;
+}
+
+h1 {
+text-align: center;
+padding-bottom: 30px;
+text-decoration: underline;
+}
+
+.cartesGeneral {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.carte {
+    width: 15%;
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding : 10px;
+}
+
+img {
+    width: 80%;
+    padding-bottom: 15px;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+    padding-bottom: 15px;
+}
